@@ -1,3 +1,6 @@
+# Solved on 2022-08-05 at 15:25 GMT +3
+# https://codeforces.com/problemset/problem/96/A
+
 players = input()
 
 repeating_0 = 0
