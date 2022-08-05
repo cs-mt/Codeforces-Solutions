@@ -1,7 +1,5 @@
 # My Codeforces Solutions
 <pre>
-Structure:
-
 Codeforces-Solutions/
 ├─ Contest-date #ContestNo1/
 │  ├─ ProblemCode1_Problem-Name-1.py
@@ -9,6 +7,9 @@ Codeforces-Solutions/
 ├─ Contest-date #ContestNo2/
 │  ├─ ProblemCode3_Problem-Name-1.py
 │  ├─ ProblemCode4_Problem-Name-2.py
+.
+.
+</pre>
 
 My Codeforces profile:
 https://codeforces.com/profile/mt_cs
