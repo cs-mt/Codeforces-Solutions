@@ -1,3 +1,6 @@
+# Solved on 2022-08-04 at 18:41 GMT +3
+# https://codeforces.com/contest/1716/problem/A
+
 test_cases = int(input())
 
 while test_cases > 0:
