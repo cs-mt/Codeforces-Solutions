@@ -3,8 +3,6 @@
 
 vector_count = int(input())
 
-vectors = []
-
 x = 0
 y = 0
 z = 0
