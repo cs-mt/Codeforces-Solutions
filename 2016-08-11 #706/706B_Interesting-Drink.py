@@ -19,7 +19,6 @@ for x in prices2:
     else:
         counts[x] = 1
 
-
 while days > 0:
     days -= 1
     money = int(input())
