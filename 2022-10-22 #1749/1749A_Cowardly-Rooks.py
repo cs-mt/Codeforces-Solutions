@@ -11,7 +11,7 @@ while t > 0:
         input()
         m-=1
     
-    if n-count == 0 and n-count == 0:
+    if n-count == 0:
         print("NO")
     else:
         print("YES")
