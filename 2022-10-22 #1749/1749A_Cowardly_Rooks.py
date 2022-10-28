@@ -1,4 +1,4 @@
-# Solved on 2022-10-28 at 17:50 GMT +3 
+# Solved on 2022-10-28 at 17:54 GMT +3 
 # https://codeforces.com/contest/1749/problem/A
 
 t = int(input())
@@ -6,27 +6,13 @@ t = int(input())
 while t > 0:
     t -= 1
     n, m = map(int, input().split()) # n*n chessboard m rooks
-    locations = []
-    fullX = []
-    fullY = []
+    count = m
     while m>0:
+        input()
         m-=1
-        x, y = map(int, input().split())
-        locations.append([x,y])
-        fullX.append(x)
-        fullY.append(y)
     
-    possibleY = n
-    possibleX = n
-    
-    for i in locations:
-        x = i[0]
-        y = i[1]
-
-        possibleY -=1
-        possibleX -=1
-    
-    if (possibleY == 0 and possibleX == 0):
+    if n-count == 0 and n-count == 0:
         print("NO")
     else:
         print("YES")
+    
