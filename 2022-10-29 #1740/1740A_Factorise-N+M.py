@@ -1,4 +1,4 @@
-# Solved on 2022-10-29 at 14:36 GMT +3
+# Solved on 2022-10-29 at 12:36 GMT +3
 # https://codeforces.com/contest/1740/problem/A
 
 t = int(input())
