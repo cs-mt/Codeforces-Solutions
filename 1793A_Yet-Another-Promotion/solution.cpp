@@ -33,7 +33,7 @@ int main(){
     cin >> m;
 
     // Get maximum m_amount we can leverage.
-    // Calculate remaining kilograms we need to buy on the second day.
+    // Calculate remaining kilograms we need to buy.
     int64_t m_amount;
     int64_t remaining_required;
 
