@@ -1,7 +1,7 @@
 /*
  * Mon 27 Feb 2023 10:23:13 AM UTC
  * https://codeforces.com/problemset/problem/266/B
- * /
+ */
 
 #include <iostream>
 #include <vector>
