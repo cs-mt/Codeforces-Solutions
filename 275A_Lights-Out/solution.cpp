@@ -26,6 +26,8 @@ int main(){
 		int in;
 		cin >> in;
 
+		if (in>0) in = in % 2 == 0 ? 2 : 1;
+
 		while (in > 0){
 			--in;
 
