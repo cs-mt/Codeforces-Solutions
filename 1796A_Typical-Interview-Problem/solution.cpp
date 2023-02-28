@@ -1,6 +1,6 @@
 /*
  * Tue 28 Feb 2023 06:51:58 PM UTC
- * https://codeforces.com/contest/1796/problem/B
+ * https://codeforces.com/contest/1796/problem/A
 */
 
 #include <iostream>
