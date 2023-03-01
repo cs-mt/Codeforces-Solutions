@@ -4,8 +4,9 @@ using namespace std;
 
 #define OPTIMIZE(); ios::sync_with_stdio(0);cin.tie(0);
 #define endl '\n'
+#define int int64_t
 
-int main(){
+signed main(){
     OPTIMIZE();
 
     int t;
@@ -15,4 +16,6 @@ int main(){
         --t;
 
     }
+
+    return 0;
 }
