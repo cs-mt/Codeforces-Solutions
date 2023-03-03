@@ -30,46 +30,15 @@ signed main(){
         std::transform(s.begin(), s.end(), s.begin(),
     [](unsigned char c){ return std::tolower(c); });
 
-        bool cont = false;
+        s.erase(unique(s.begin(), s.end()), s.end());
 
-        if(s[0] != 'm'){
+        if(s=="meow"){
+            cout << "YES" << endl;
+            continue;
+        }else {
             cout << "NO" << endl;
             continue;
         }
-
-        for(int i=0;i<n-1;i++){
-            if(s[i] == s[i+1]){
-                continue;
-            }
-
-            if(s[i] == 'm' && s[i+1] != 'e'){
-                cout << "NO" << endl;
-                cont = true;
-                break;
-            }
-
-            if(s[i] == 'e' && s[i+1] != 'o'){
-                cout << "NO" << endl;
-                cont = true;
-                break;
-            }
-
-            if(s[i] == 'o' && s[i+1] != 'w'){
-                cout << "NO" << endl;
-                cont = true;
-                break;
-            }
-        }
-
-        if(cont) continue;
-
-        if(s[n-1] != 'w') {
-            cout << "NO" << endl;
-            continue;
-        }
-
-        cout << "YES" << endl;
-
 
     }
 
