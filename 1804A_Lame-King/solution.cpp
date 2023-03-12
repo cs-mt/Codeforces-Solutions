@@ -1,6 +1,6 @@
 /*
  * Sun 12 Mar 2023 04:10:04 PM UTC
- * https://codeforces.com/contest/1804/problem/B
+ * https://codeforces.com/contest/1804/problem/A
 */
 
 #include <bits/stdc++.h>
