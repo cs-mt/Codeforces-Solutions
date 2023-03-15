@@ -37,8 +37,6 @@ signed main(){
         indexes[nums[i]] = i;
     }
 
-    sort(nums.begin(), nums.end());
-
     while(q>0){
         --q;
         int a;
