@@ -27,8 +27,8 @@ signed main(){
     // The same applies to the other 2 permutations.
 
     int x = sqrt(xy*xz/zy);
-    int y = sqrt(xy*zy/xz);
-    int z = sqrt(xz*zy/xy);
+    int y = xy/x;
+    int z = zy/y;
 
     // There are 12 edges. We have the 3 distinct edges. The sum of all edges is 4 * (x+y+z)
 
