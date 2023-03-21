@@ -15,7 +15,7 @@ using namespace std;
 signed main(){
     OPTIMIZE();
 
-    // Areas of 3 distinct sides.
+    // Areas of 3 distinct faces.
     int xy,xz,zy;
 
     cin >> xy;
@@ -24,7 +24,7 @@ signed main(){
 
     // xy*zy = xyzy
     // xyzy / xz = y^2
-    // The same applied to other 2 combinations.
+    // The same applies to the other 2 permutations.
 
     int x = sqrt(xy*xz/zy);
     int y = sqrt(xy*zy/xz);
