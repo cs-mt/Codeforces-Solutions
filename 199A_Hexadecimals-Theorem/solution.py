@@ -16,11 +16,11 @@ while(b<n):
 
 if(n <= 2):
   if(n == 0):
-      print("0 0 0 ")
+      print("0 0 0")
   elif(n == 1):
       print("0 0 1")
   elif(n == 2):
-      print(" 0 1 1")
+      print("0 1 1")
 else:
     test = fibs[-1-1] + fibs[-1-3] + fibs[-1-4]
 
@@ -28,6 +28,3 @@ else:
       print("{} {} {}".format(fibs[-1-1], fibs[-1-3], fibs[-1-4]))
     else:
       print("I'm too stupid to solve this problem")
-
-
-
