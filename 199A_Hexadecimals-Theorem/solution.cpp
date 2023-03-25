@@ -23,7 +23,7 @@ signed main(){
     vector<int> nums;
 
     if(n==0){
-        cout << "0 0 0 ";
+        cout << "0 0 0";
         return 0;
     }
 
@@ -40,7 +40,7 @@ signed main(){
     while(n >= b){
         nums.push_back(a);
         int newfib = a+b;
-        swap(a,b);
+        a = b;
         b=newfib;
     }
 
