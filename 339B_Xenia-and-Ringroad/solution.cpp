@@ -32,7 +32,7 @@ signed main(){
     int prev = 0;
 
     for(int i=0;i<nums.size();i++){
-        if(prev != 0 && nums[i] < prev){
+        if(nums[i] < prev){
             total+=n;
         }
         prev = nums[i];
